@@ -1,0 +1,154 @@
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+#intro {
+    background: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201812%2F10%2F20181210113120_zRcy3.thumb.700_0.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625222736&t=9f312e5b4018adf5ac6c6e27dcbfaace")no-repeat center center fixed;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+audio{
+    display: none;
+}
+.container1{
+    width: 900px;
+    height: 150px;
+    border: 1px solid #fff;
+    margin: 450px auto 0 auto;
+}
+.container1 .love{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin: -350px 0px 50px 350px;
+    background-color: lightblue;
+}
+.container1 .love img{
+    width: 200px;
+    height: 200px;
+   
+}
+.container1 .left{
+    margin:230px 388px 200px -10px;
+}
+
+.container1 .left .juxing{
+    width: 200px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: -112px 400px 50px 150px;
+ 
+}
+.container1 .left .juxing .circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin:5px 3px 5px auto;
+}
+.container1 .left .juxing .circle img{
+    width: 50px;
+    height: 50px;  
+    border-radius: 50%;
+}
+.container1 .left .juxing p{
+    margin-left: 25px;
+    margin-top:-44px;
+    font-family: 方正字迹-刘鑫标幼体 简;
+    font-size: 18px;
+}
+.container1 .right{
+    margin:-256px 388px 0px 250px;
+}
+.container1 .right .juxing{
+    width: 200px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:110px 100px 100px 300px;
+   
+}
+.container1 .right .juxing .circle{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    border:1px solid black;
+    margin: 5px 145px 5px auto;
+}
+.container1 .right .juxing .circle img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.container1 .right .juxing p{
+    margin-left: 65px;
+    margin-top: -44px;
+    font-family: 方正字迹-刘鑫标幼体 简;
+    font-size: 18px;
+
+}
+.container1 .menu .lift{
+    width: 150px;
+    height: 20px;
+    font-family: 方正字迹-刘鑫标幼体 简;
+    margin: 100px 150px 0px 180px;
+    font-size: 25px;
+    text-align: center;
+    background-image: linear-gradient(67deg,#e2d368,#96d7c6);
+    border-radius: 10px;
+}
+.container1 .menu .lift:hover{
+    transform: translate(0,5px);
+    background-image: linear-gradient(67deg,#6cbcbf,#5aa7a5);
+}
+.container1 .menu .liuyun{
+    width: 150px;
+    height: 20px;
+    font-family: 方正字迹-刘鑫标幼体 简;
+    margin: -19px 0px 0px 380px;
+    font-size: 25px;
+    text-align: center;
+    background-image: linear-gradient(67deg,#e2d368,#96d7c6);
+    border-radius: 10px;
+}
+.container1 .menu .liuyun:hover{
+    transform: translate(0,5px);
+    background-image: linear-gradient(67deg,#6cbcbf,#5aa7a5);
+}
+.container1 .menu .futher{
+    width: 150px;
+    height: 20px;
+    font-family: 方正字迹-刘鑫标幼体 简;
+    margin: -21px 0px 0px 580px;
+    font-size: 100px;
+    text-align: center;
+    background-image: linear-gradient(67deg,#e2d368,#96d7c6);
+    border-radius: 10px;
+}
+.container1 .menu .futher:hover{
+    transform: translate(0,5px);
+    background-image: linear-gradient(67deg,#6cbcbf,#5aa7a5);
+}
+.container1 .menu .jieye{
+    width: 150px;
+    height: 20px;
+    font-family: 方正字迹-刘鑫标幼体 简;
+    margin: 50px 100px 50px 580px;
+    font-size: 25px;
+    text-align: center;
+    background-image: linear-gradient(67deg,#e2d368,#96d7c6);
+    border-radius: 10px;
+}
+.container1 .menu .jieye:hover{
+    transform: translate(5,10px);
+    background-image: linear-gradient(67deg,#6cbcbf,#5aa7a5);
+}
+.back{
+    background-color:lightblue;
+}

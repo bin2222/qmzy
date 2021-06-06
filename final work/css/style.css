@@ -1,0 +1,70 @@
+.header{
+    height: 66px;
+    background-color :black;
+}
+/*添加板心*/
+.header div.inner_c{
+    width: 1000px;
+    margin:0 auto;
+}
+.header div.inner_c .logo{
+    float: left;
+    width: 199px;
+    height:58px;
+    padding-right:26px;
+
+}
+.header .nav div ul{
+    float:left;
+    list-style: none;
+    width: 1000px;
+    line-height: 58px;
+    border-left: 1px solid #d0d320;
+    color: #818c96;
+    text-align: center;
+}
+.header .nav div ul li.last{
+    border-right: 1px solid #d0d320;
+}
+.header .nav div ul li.first {
+    background-color: #d0d320;
+}
+
+.header .nav div ul li a{
+    display:inline-block;
+    width: 100px;
+    height: 58px;
+    font-size: 16px;
+}
+
+
+.header div ul li a:link{
+    text-decoration: none;
+}
+.header div ul li a:hover{
+    color: #E2E4ED;
+    background-color:#d0d320;
+
+} 
+.header div.join{
+    float:left;
+    padding: 12px 20px 12px 48px;
+}
+.header .join a{
+    display: block;
+    width: 100px;
+    line-height: 34px;
+    color: white;
+    background-color: #26CE50;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 12px;
+    }
+    .header .join a:hover{
+        background-color: #488774;
+    }
+    .top-nav-collapse {
+        background-color: #24355C;
+      }
+      
